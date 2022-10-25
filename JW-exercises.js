@@ -1,4 +1,4 @@
-// The Javascript Way - Chapter 3 Add Conditions -----------------------------
+// The Javascript Way - Chapter 3 Add Conditions ---------------------------------------------------------------------------------------
 
 // 1. Following day
 // Write a program that accepts a day name from the user, then shows the name of the following day. 
@@ -34,7 +34,7 @@ switch(dayName){
 }
 
 
-// The Javascript Way - Chapter 4 Repeat statement -----------------------------
+// The Javascript Way - Chapter 4 Repeat statement ---------------------------------------------------------------------------------------
 
 // 1. Carousel
 // Write a program that launches a carousel for 10 turns, showing the turn number each time.
@@ -77,7 +77,7 @@ while (i <= initial + 10){
 }
 
 
-// The Javascript Way - Chapter 5 Write functions -----------------------------
+// The Javascript Way - Chapter 5 Write functions ---------------------------------------------------------------------------------------
 
 // 1. Improved hello
 // Complete the following program so that it asks the user for his first and last names, then show the result of the sayHello() function.
