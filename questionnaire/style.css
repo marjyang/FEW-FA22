@@ -1,5 +1,6 @@
 body {
 }
+
 #form{
     text-align: center;
     position: absolute;
@@ -10,4 +11,22 @@ body {
 
 #submit{
     margin-top:50px;
+    padding: 12px 20px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: #ffd30c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
 }
+
+#submit:active{
+    background-color: #ffb405;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+  
+
