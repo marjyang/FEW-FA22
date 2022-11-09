@@ -1,0 +1,28 @@
+html{
+    font-family: sans-serif;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+}
+
+#name{
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+button{
+    background: rgb(221, 221, 221);
+    border: none;
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+    padding: 5px;
+}
