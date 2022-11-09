@@ -1,2 +1,1 @@
-# javascript-exercises
-The Javascript Way
+# Front-end Web - Exercises
