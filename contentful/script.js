@@ -1,21 +1,21 @@
-// var client = contentful.createClient({
-//     space: 'o4z3qq75yqc3',
-//     accessToken: 'MuqbxfbvDvLwFoLQT6WzHF2XfxyWcY2jj17UF46eRD8',
-// });
+var client = contentful.createClient({
+    space: 'space',
+    accessToken: 'accessToken',
+});
 
-// client.getEntries().then((entries) =>{
+client.getEntries().then((entries) =>{
 
-//     let blog = document.getElementById('blog');
+    let blog = document.getElementById('blog');
 
-//     entries.items.forEach((entry) => {
-//         let html = `
-//             <h1>${entry.fields.title}</h1>
-//             <img class='blog-img' src='${entry.fields.image.fields.file.url}'>
-//             <p>${entry.fields.body}</p>
-//         `;
-//         blog.innerHTML += html;
-//     });
-// });
+    entries.items.forEach((entry) => {
+        let html = `
+            <h1>${entry.fields.title}</h1>
+            <img class='blog-img' src='${entry.fields.image.fields.file.url}'>
+            <p>${entry.fields.body}</p>
+        `;
+        blog.innerHTML += html;
+    });
+});
 
 
     // another way:
@@ -31,12 +31,4 @@
 
         // let body = document.createElement('p');
         // body.textContent = entry.fields.body;
-        // blog.append(body
-        
-
-function flipbook(){
-    fetch("https://heyzine.com/api1/oembed?url=https%3A//heyzine.com/flip-book/831856a0b7.html&format=json")
-    .then(response => response.json())
-    // .then(response =>)
-    console.log(response);
-}
+        // blog.append(body)
